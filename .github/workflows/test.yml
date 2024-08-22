@@ -23,6 +23,8 @@ jobs:
         with:
           repository: yy8-kyoto/mypj
           path: mypj
+          # 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
+          token: ${{ secrets.TEST_GITHUB_TOKEN_REPO }} 
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
